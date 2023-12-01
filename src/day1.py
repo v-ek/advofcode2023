@@ -16,5 +16,4 @@ for line in lines:
             print(f"right: {line[-idx-1]}")
             right = line[-idx-1]
 
-print(numbers[-10:])
 print(sum(numbers))
