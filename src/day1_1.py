@@ -10,10 +10,8 @@ for line in lines:
             numbers.append(int(left + right))
             break
         if line[idx].isdigit() and not left:
-            print(f"left: {line[idx]}")
             left = line[idx]
         if line[-idx-1].isdigit() and not right:
-            print(f"right: {line[-idx-1]}")
             right = line[-idx-1]
 
 print(sum(numbers))
